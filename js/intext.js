@@ -90,24 +90,25 @@ if(num < 50) {
 }
 */
 
-let y = 10;
+let y = 90;
 
 switch(true) {
-	case y < 67:
-		console.log("Wrong!");
-		break;
+	
 	case y > 1009:
 		console.log("Also wrong!");
 		break;
-	case y < 567:
-		console.log("Very much wrong!");
-		break;
-    case y < 9:
+    case y == 9:
 		console.log("Dog");
 		break;
-	// default:
-		// console.log("Something went wrong!");
-		// break;				
+	case y < 67:
+		console.log("Wrong!");
+		break;
+	case y > 567:
+		console.log("Very much wrong!");
+		break;	
+	default:
+		console.log("Something went wrong!");
+	 	break;				
 } 
 
 var z = 6;
@@ -132,3 +133,59 @@ if(num > 3) {
 } else {
 	console.log("No answer!")
 }
+
+while (num < 23) {
+	console.log(num);
+	num++;
+}
+
+for (let hu = 90; hu > 80; hu--) {
+	console.log(hu)
+}
+
+let yo = 2;
+
+/*do {
+	 {
+	
+	console.log(yo);
+	yo++;
+	
+}
+while (yo < 30)
+}
+*/
+while (yo < 30){
+	yo = yo + 3;
+	console.log(yo);
+}
+
+let p = 2;
+do {
+	console.log(p);
+	p = p + 2;
+}
+while(p < 10)
+
+for (let ri = 1; ri < 100; ri = ri + 5) {
+	if (ri == 11) {
+		break
+	}
+	console.log(ri)
+}
+
+
+for (let ri = 1; ri < 100; ri = ri + 5) {
+	if (ri == 11) {
+		continue
+	}
+	console.log(ri)
+}
+
+console.log([] + 1 + 2);
+console.log(typeof([] + 1 + 2));
+
+console.log([ ] + false - null + true);
+console.log(typeof([ ] + false - null + true));
+
+console.log( "1"[0] );
